@@ -1,0 +1,50 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  /*repeat(3, 1fr) --aise bhi likh skte hai*/
+    background-color: rgb(27, 90, 99);  
+    grid-auto-rows: minmax(100px, auto);
+
+}
+.one{
+    grid-column-gap: 10px;
+    grid-row-gap:10px;
+    background-color: aqua;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start:1;
+    grid-column-end: 4;
+    z-index: 2;
+
+}
+
+.two{
+    grid-column-gap: 10px;
+    grid-row-gap:10px;
+    background-color: rgb(77, 205, 245);
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    z-index: 1;
+   
+
+}
+.three{
+    grid-column-gap: 10px;
+    grid-row-gap:10px;
+    background-color: cadetblue;
+
+}
+.four{
+    grid-column-gap: 10px;
+    grid-row-gap:10px;
+    background-color: rgb(95, 183, 183);
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+
+}
+.five{
+    grid-column-gap: 10px;
+    grid-row-gap:10px;
+    background-color: darkcyan;
+
+}
