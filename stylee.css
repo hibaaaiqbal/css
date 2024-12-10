@@ -6,6 +6,7 @@
 a{
     display: flex;
     margin: 20px;
+    justify-content: center;
     text-decoration: none;
     color: black;
     font-size: 35px;
