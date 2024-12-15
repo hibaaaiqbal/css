@@ -88,4 +88,17 @@ a[target="_blank"] {
   input:in-range{
     border:5px solid greenyellow;
   }
-  
+.outer{
+  height:400px;
+  width:400px;
+  display: flex;
+  background-color: rgb(150, 69, 226);
+  justify-content: center; /*justify-content is used to align items in centeer at main axis (horizontal axis from left to right)*/
+  align-items: center; /*align-items is used to center items along the cross axis (top to bottom)*/
+ /* if you want to place one div exactly at the center of another div you can use justify -content and align-items both fixed at center*/
+}  
+.inner{
+  height:100px;
+  width:100px;
+  background-color: rgb(189, 148, 228);
+}
